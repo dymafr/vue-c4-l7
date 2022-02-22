@@ -24,7 +24,7 @@ interface Produit {
   derniereModif?: number;
 }
 
-const produit = reactive({
+const produit = reactive<Produit>({
   quantite: 3,
   prix: 10,
   nom: 'livre',
