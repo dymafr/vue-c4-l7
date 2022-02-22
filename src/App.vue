@@ -42,10 +42,10 @@ watch(
   }
 );
 
-// watchEffect(() => {
-//   produit.derniereModif = Date.now();
-//   console.log(produit);
-// });
+watchEffect(() => {
+  produit.derniereModif = Date.now();
+  console.log(produit);
+});
 </script>
 
 <style></style>
